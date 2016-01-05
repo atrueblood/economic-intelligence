@@ -11,6 +11,7 @@ collections:
 
 # Title
 name: DMPED Economic Intelligence Dashboard
+subtitle: 'Deputy Mayor for Planning & Economic Development | Muriel Bowser, Mayor'
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -24,39 +25,45 @@ author:
 baseurl: '/economic-intelligence'
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: '/assets/img/dc-logo.png'
-logoalt: The D.C. flag
+logourl: '/assets/img/we-are-wdc.png'
+logoalt: We Are Washington DC
 
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
+- text: 'Intro & Quick Stats'
   internal: true
   url: ./
+- text: Population
+  internal: true
+  url: population.html
 - text: Employment and Labor
   internal: true
   url: employment-labor.html
 - text: 'Income, Wages, and Taxes'
   internal: true
   url: income-wages-taxes.html
-- text: Housing and Affordability
+- text: Housing Indicators
   internal: true
-  url: housing-affordability.html
+  url: housing-indicators.html
 - text: Construction Activity
   internal: true
   url: construction-activity.html
 - text: Affordable Housing Production and Preservation
   internal: true
   url: affordable-production-preservation.html
+- text: DMPED Real Estate
+  internal: true
+  url: dmped-real-estate.html
 
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: guides-template
-  description: 
-  url: https://github.com/DCgov/guides-template
+- name: economic-intelligence
+  description:
+  url: https://github.com/DCgov/economic-intelligence
 
-google_analytics_ua: 
+google_analytics_ua: UA-2638726-1
 
 # Style Variables
-brand_color: "#DA253B"
+brand_color: "#BF0000"
